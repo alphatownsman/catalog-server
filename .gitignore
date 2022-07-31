@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache
+
+# VS Code configuration files
+.vscode/
+
+# flake8
+tox.ini
+
+# ignore migrations for now
+migrations/
+
+# docs/
+
+# Local sqlite3 db
+*.sqlite3
+
+# deployed media and static files
+/media/
+/static/
+/scripts/
+
+# debug log file
+/log
+log
+
+# conf folder for neodb
+/neodb
+settings.py
